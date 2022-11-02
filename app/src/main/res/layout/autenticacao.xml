@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="AUTENTICAÇÃO"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtlogin"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Insira a senha"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtsenha3"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtlogin"
+        android:layout_marginTop="40dp"
+        android:text="Repita a senha"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="360dp"
+        android:background="@color/cinza"
+        android:text="Entrar"
+        android:textSize="10dp" />
+
+</RelativeLayout>
